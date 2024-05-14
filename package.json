@@ -1,0 +1,26 @@
+{
+    "name": "cielo",
+    "version": "1.0.0",
+    "description": "Sistema de Cadastro de usuários utilizando Node.js e MongoDB",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zezoca29/Sistema-de-Cadastro-Cielo.git"
+    },
+    "author": "Kaique Zêza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Zezoca29/Sistema-de-Cadastro-Cielo/issues"
+    },
+    "homepage": "https://github.com/Zezoca29/Sistema-de-Cadastro-Cielo#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "express": "^4.19.2",
+        "express-validator": "^7.0.1",
+        "mongodb": "^6.6.1",
+        "mongoose": "^8.3.4"
+    }
+}

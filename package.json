@@ -4,7 +4,8 @@
     "description": "Sistema de Cadastro de usuários utilizando Node.js e MongoDB",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -22,5 +23,20 @@
         "express-validator": "^7.0.1",
         "mongodb": "^6.6.1",
         "mongoose": "^8.3.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "jest-fetch-mock": "^3.0.3",
+        "jsdom": "^24.0.0",
+        "node-fetch": "^2.7.0"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.js$": "babel-jest"
+        }
     }
 }
